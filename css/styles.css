@@ -11,41 +11,37 @@
 body {
     background-color: var(--main-background-color);
     color: var(--primery-text-color);
-    list-style: none;
     font-family: Roboto, sans-serif;
 } 
 
-span{
+span {
 color: var(--accent-color);
 }
 
+            /*reset*/
 .list {
     list-style: none;
 }
 
-.site-nav a {
-    text-decoration: none;
-}
-
-.contact a {
-    text-decoration: none;
- }
-
-.page a {
+.link {
 text-decoration: none;
 }
 
-.footer a {
-     text-decoration: none;
- }
+.logo {
+text-decoration: none;
+}
 
             /* шапка */
 .header {
     background-color: var(--main-background-color);
 }
-  .logo {
+.logo {
     color: var(--logo-color);
-    font-family: Raleway,sans-serif;
+    font-family: Raleway,sans-serif;   
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 
 .site-nav .link {
@@ -79,23 +75,23 @@ text-decoration: none;
 }
 
             /* hero */
-.hero{
+.hero {
     background-color: var(--dark-background-color);
  }           
 .hero-title {
     color: var(--main-background-color);
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
-    text-transform: uppercase
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .hero-button {
     background-color: var(--accent-color);
     color: var(--main-background-color);
-    font-style: normal;
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -106,7 +102,6 @@ text-decoration: none;
             /* benefits */
 .benefits-title {
     color: var(--title-text-color);
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -116,7 +111,6 @@ text-decoration: none;
 
 .benefits-text {
     color: var(--primery-text-color);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71; 
     letter-spacing: 0.03em;
@@ -124,7 +118,6 @@ text-decoration: none;
 
 .work-title {
     color: var(--title-text-color);
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -139,7 +132,6 @@ text-decoration: none;
 .team-title-main{
     background-color: var(--main-background-color);
     color:var(--title-text-color);
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -150,7 +142,6 @@ text-decoration: none;
 .team-title {
     color: var(--title-text-color);
     background-color: var(--main-background-color);
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -159,7 +150,6 @@ text-decoration: none;
 .team .team-text {
     background-color: var(--main-background-color);
     color: var(--primery-text-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -173,7 +163,6 @@ text-decoration: none;
 .footer .footer-link{
     color: var(--main-background-color);
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em
@@ -181,7 +170,6 @@ text-decoration: none;
 .footer .footer-addres{
     color: var(--addres-color);
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em
@@ -198,14 +186,12 @@ text-decoration: none;
 }
 
                 /*portfolio  */
-.page {
-    background-color: var(--main-background-color);
-}
+
 .filter-btn {
     background-color: var(--team-background-color);
     color: var(--title-text-color);
+    font-family: inherit;
     cursor: pointer;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.71;
@@ -220,7 +206,6 @@ text-decoration: none;
 
 .portfolio-title {
     color: var(--title-text-color);
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -228,8 +213,8 @@ text-decoration: none;
 }
 .portfolio-text {
     color: var(--primery-text-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em
 }
+
